@@ -54,8 +54,8 @@ import com.qualcomm.robotcore.hardware.DcMotor;
  * Remove or comment out the @Disabled line to add this opmode to the Driver Station OpMode list
  */
 
-@Autonomous(name = "AutonomousBlue", group = "Pushbot")
-public class AutonomousBlue extends LinearOpMode {
+@Autonomous(name = "AutonomousBlueRevise", group = "Pushbot")
+public class AutonomousBlueRevise extends LinearOpMode {
 
     @Override
     public void runOpMode() {
@@ -98,15 +98,38 @@ public class AutonomousBlue extends LinearOpMode {
         output.setPower(1);
         sleep(980);
         output.setPower(0);
-        leftFront.setPower(1);
-        rightFront.setPower(-1);
-        leftBack.setPower(1);
-        rightBack.setPower(-1);
+        leftFront.setPower(-1);
+        rightFront.setPower(1);
+        leftBack.setPower(-1);
+        rightBack.setPower(1);
         sleep(1200);
         leftFront.setPower(1);
         rightFront.setPower(1);
         leftBack.setPower(1);
         rightBack.setPower(1);
-        sleep(10000);
+        sleep(2000);
+        leftFront.setPower(-1);
+        rightFront.setPower(1);
+        leftBack.setPower(-1);
+        rightBack.setPower(1);
+        sleep(1200);
+        leftFront.setPower(1);
+        rightFront.setPower(1);
+        leftBack.setPower(1);
+        rightBack.setPower(1);
+        sleep(1200);
+        duck.setPower(1);
+        sleep(8000);
+        duck.setPower(0);
+        leftFront.setPower(-1);
+        rightFront.setPower(1);
+        leftBack.setPower(-1);
+        rightBack.setPower(1);
+        sleep(1200);
+        leftFront.setPower(1);
+        rightFront.setPower(1);
+        leftBack.setPower(1);
+        rightBack.setPower(1);
+        sleep(8000);
     }
 }
