@@ -87,7 +87,7 @@ public class AutonomousRed extends LinearOpMode {
         rightFront.setPower(1);
         leftBack.setPower(1);
         rightBack.setPower(1);
-        sleep(1000);
+        sleep(800);
         leftFront.setPower(0);
         rightFront.setPower(0);
         leftBack.setPower(0);
@@ -98,14 +98,19 @@ public class AutonomousRed extends LinearOpMode {
         sleep(980);
         output.setPower(0);
         leftFront.setPower(-1);
+        rightFront.setPower(-1);
+        leftBack.setPower(-1);
+        rightBack.setPower(-1);
+        sleep(150);
+        leftFront.setPower(-1);
         rightFront.setPower(1);
         leftBack.setPower(-1);
         rightBack.setPower(1);
-        sleep(1200);
+        sleep(1100);
         leftFront.setPower(1);
         rightFront.setPower(1);
         leftBack.setPower(1);
         rightBack.setPower(1);
-        sleep(10000);
+        sleep(7000);
     }
 }

@@ -83,12 +83,11 @@ public class AutonomousDuckBlue extends LinearOpMode {
         // Wait for the game to start (driver presses PLAY)
         waitForStart();
 
-
         leftFront.setPower(1);
         rightFront.setPower(1);
         leftBack.setPower(1);
         rightBack.setPower(1);
-        sleep(900);
+        sleep(800);
         leftFront.setPower(0);
         rightFront.setPower(0);
         leftBack.setPower(0);
@@ -99,32 +98,42 @@ public class AutonomousDuckBlue extends LinearOpMode {
         sleep(980);
         output.setPower(0);
         leftFront.setPower(-1);
+        rightFront.setPower(-1);
+        leftBack.setPower(-1);
+        rightBack.setPower(-1);
+        sleep(200);
+        leftFront.setPower(-1);
         rightFront.setPower(1);
         leftBack.setPower(-1);
         rightBack.setPower(1);
-        sleep(1200);
+        sleep(1265);
         leftFront.setPower(1);
         rightFront.setPower(1);
         leftBack.setPower(1);
         rightBack.setPower(1);
-        sleep(2300);
+        sleep(2075);
         leftFront.setPower(0.3);
         rightFront.setPower(0.3);
         leftBack.setPower(0.3);
         rightBack.setPower(0.3);
-        sleep(1200);
+        sleep(700);
         duck.setPower(1);
-        sleep(8000);
+        sleep(7000);
         duck.setPower(0);
         leftFront.setPower(1);
         rightFront.setPower(-1);
         leftBack.setPower(1);
         rightBack.setPower(-1);
-        sleep(2300);
+        sleep(2400);
+        leftFront.setPower(1);
+        rightFront.setPower(-1);
+        leftBack.setPower(-1);
+        rightBack.setPower(1);
+        sleep(500);
         leftFront.setPower(1);
         rightFront.setPower(1);
         leftBack.setPower(1);
         rightBack.setPower(1);
-        sleep(8000);
+        sleep(6000);
     }
 }

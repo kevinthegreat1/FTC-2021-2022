@@ -32,8 +32,8 @@ public class AutonomousBackRed extends LinearOpMode {
 
         // Wait for the game to start (driver presses PLAY)
         waitForStart();
-        leftFront.setPower(1);
-        rightFront.setPower(-1);
+        leftFront.setPower(-1);
+        rightFront.setPower(1);
         leftBack.setPower(1);
         rightBack.setPower(-1);
         sleep(1000);
