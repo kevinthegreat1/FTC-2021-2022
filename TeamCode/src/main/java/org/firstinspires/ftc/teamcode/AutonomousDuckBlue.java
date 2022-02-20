@@ -54,8 +54,8 @@ import com.qualcomm.robotcore.hardware.DcMotor;
  * Remove or comment out the @Disabled line to add this opmode to the Driver Station OpMode list
  */
 
-@Autonomous(name = "AutonomousBlueRevise", group = "Pushbot")
-public class AutonomousBlueRevise extends LinearOpMode {
+@Autonomous(name = "AutonomousDuckBlue", group = "Pushbot")
+public class AutonomousDuckBlue extends LinearOpMode {
 
     @Override
     public void runOpMode() {
