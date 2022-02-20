@@ -88,7 +88,7 @@ public class AutonomousDuckBlue extends LinearOpMode {
         rightFront.setPower(1);
         leftBack.setPower(1);
         rightBack.setPower(1);
-        sleep(1000);
+        sleep(900);
         leftFront.setPower(0);
         rightFront.setPower(0);
         leftBack.setPower(0);
@@ -102,7 +102,7 @@ public class AutonomousDuckBlue extends LinearOpMode {
         rightFront.setPower(1);
         leftBack.setPower(-1);
         rightBack.setPower(1);
-        sleep(1400);
+        sleep(1200);
         leftFront.setPower(1);
         rightFront.setPower(1);
         leftBack.setPower(1);
